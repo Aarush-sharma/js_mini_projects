@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(17 24 39);
+}
+.decor{
+    height: 2px;
+    background-color: rgb(179, 179, 179);
+    width: 15%;
+    margin-top: 5px;
+}
+.lin{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    visibility: hidden;
+}
+.taskby{
+    width: 40%;
+    height: 3rem;
+    background-color:  rgb(8 51 68 );
+    color: rgb(107 114 128);
+    text-align: start;
+    padding-left: 0.5rem;
+    border: 1px solid rgb(99, 103, 110);
+    margin-left: 10vw;
+    font-family: sans-serif;
+    font-size: large;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.failed{
+    background-color: rgb(17 24 39);
+    color: rgb(49, 60, 68);
+    text-align: center;
+    border-style: none;
+    font-size: 4rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 1rem;
+    margin-right: 10vw;
+    position: relative;
+    top: 10px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.failed:hover{
+    color: rgb(129, 39, 52);
+}
+.taskby:hover{
+    background-color:  rgb(56, 104, 24);
+    color: black;
+}

@@ -1,0 +1,44 @@
+body{
+    background: darkslategrey;
+}
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    background-color: rgb(212, 212, 212);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2.5vh;
+}
+.download{
+    background-color: #403d39;
+    color: antiquewhite;
+    
+}
+.navbar,.btns{
+    display: flex;
+    justify-content: center;
+    gap: 2.5vw;
+}
+.btns{margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;}
+label{
+    color:antiquewhite;
+    font-family: sans-serif;
+}
+#canvas-size,#size-picker,#color-picker{
+    width: 10vw;
+}
+#top{
+    display: flex;
+   justify-content: center;
+   margin-top: 0;
+}
+.head{
+    font-family: sans-serif;
+    color: aliceblue;
+}
